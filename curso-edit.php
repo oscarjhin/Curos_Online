@@ -25,7 +25,7 @@ if(isset($_GET['id']))
       <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1><?=($id>0) ? 'Editar':'Nuevo' ?> Materia</h1>        
+                <h1><?=($id>0) ? 'Editar':'Nuevo' ?> Curso</h1>        
                 <form action="curso-procesa.php" method="post">
                  <input type="hidden" name="id" value="<?=$id?>" >
 
@@ -49,7 +49,7 @@ if(isset($_GET['id']))
                     <input type="text" name="nivel" class="form-control" value="<?=$nivel?>" placeholder="Ingrese Nivel">
                   </div>
                   <button type="submit" class="btn btn-primary">Enviar</button>
-                  <a href="zonas.php" class="btn btn-danger">Cancelar</a>
+                  <a href="curso.php" class="btn btn-danger">Cancelar</a>
                 </form>                
             </div>
         </div>

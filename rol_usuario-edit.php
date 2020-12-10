@@ -29,7 +29,7 @@ if(isset($_GET['id']))
                     <input type="text" name="descripcion" class="form-control" value="<?=$descripcion?>" placeholder="Ingrese Descripcion">
                   </div>
                   <button type="submit" class="btn btn-primary">Enviar</button>
-                  <a href="categorias.php" class="btn btn-danger">Cancelar</a>
+                  <a href="rol_usuario.php" class="btn btn-danger">Cancelar</a>
                 </form>                
             </div>
         </div>

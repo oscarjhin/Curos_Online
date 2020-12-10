@@ -53,7 +53,7 @@ if(isset($_GET['id']))
                   </div>
                   <div class="form-group">
                     <label for="">Password</label>
-                    <input type="text" name="password" class="form-control" placeholder="Ingrese Password">
+                    <input type="password" name="password" class="form-control" placeholder="Ingrese Password">
                      <input type="hidden" name="password2" value="<?=$password2?>" >
                   </div>
                   <div class="form-group">
@@ -97,7 +97,7 @@ if(isset($_GET['id']))
                   </div>
                   
                   <button type="submit" class="btn btn-primary">Enviar</button>
-                  <a href="usuarios.php" class="btn btn-danger">Cancelar</a>
+                  <a href="usuario.php" class="btn btn-danger">Cancelar</a>
                 </form>                
             </div>
         </div>

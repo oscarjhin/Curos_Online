@@ -5,8 +5,9 @@ require_once('librerias/sesion.php');
 require_once('librerias/conexionBD.php');
 
 $id=$_SESSION['id_sesion'];
+$id_rol_u=$_SESSION['id_rol_u'];
 
-echo "ID USUARIO: ".$id."<br>";
+echo "ID ROL US: ".$id_rol_u."<br>";
 ?>
 
       <div class="container">

@@ -1,6 +1,6 @@
 <?php 
 require_once('librerias/conexionBD.php');
-$sql = "select * from usuario u, rol_usuario r WHERE u.id_rol_u=r.id";
+$sql = "select u.*, r.descripcion from usuario u, rol_usuario r WHERE u.id_rol_u=r.id";
 $result =  $conn->query($sql);
 $usuarios = array();
 while ($fila =  $result->fetch_array()) {

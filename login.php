@@ -15,6 +15,7 @@ if ($result->num_rows > 0){
     $_SESSION["login"] = "OK";
     $_SESSION["usuario"] = $usuario;
 	$_SESSION["id_sesion"] = $fila['id'];
+	$_SESSION["id_rol_u"] = $fila['id_rol_u'];
     header('Location: inicio.php');
 }
 else{
